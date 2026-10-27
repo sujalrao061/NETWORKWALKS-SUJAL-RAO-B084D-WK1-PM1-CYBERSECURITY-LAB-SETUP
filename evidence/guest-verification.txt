@@ -1,0 +1,65 @@
+Tue Oct 27 05:01:46 AM UTC 2026
+PRETTY_NAME="Kali GNU/Linux Rolling"
+NAME="Kali GNU/Linux"
+VERSION_ID="2026.3"
+VERSION="2026.3"
+VERSION_CODENAME=kali-rolling
+ID=kali
+ID_LIKE=debian
+HOME_URL="https://www.kali.org/"
+SUPPORT_URL="https://forums.kali.org/"
+BUG_REPORT_URL="https://bugs.kali.org/"
+ANSI_COLOR="1;31"
+uid=1000(kali) gid=1000(kali) groups=1000(kali),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(scanner),111(wireshark),115(kaboxer),964(vboxsf),981(bluetooth),989(netdev),999(lpadmin)
+eth0             UP             10.0.0.2/24 
+default via 10.0.0.1 dev eth0 proto static metric 100 
+10.0.0.0/24 dev eth0 proto kernel scope link src 10.0.0.2 metric 100 
+manual
+10.0.0.2/24
+10.0.0.1
+8.8.8.8
+0
+TARGET              SOURCE    FSTYPE OPTIONS
+/media/sf_Downloads Downloads vboxsf rw,nodev,relatime
+  File: /media/sf_Downloads
+  Size: 81920     	Blocks: 160        IO Block: 4096   directory
+Device: 0,55	Inode: 0           Links: 1
+Access: (0770/drwxrwx---)  Uid: (    0/    root)   Gid: (  964/  vboxsf)
+Access: 2026-10-27 01:00:01.648366700 -0400
+Modify: 2026-10-26 21:20:36.532235600 -0400
+Change: 2026-10-26 21:20:36.532235600 -0400
+ Birth: -
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=7.31 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.720 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.491 ms
+
+--- 10.0.0.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 0.491/2.841/7.313/3.163 ms
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=53 time=30.3 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=53 time=39.0 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=53 time=30.7 ms
+
+--- 1.1.1.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 30.277/33.317/38.960/3.993 ms
+172.66.147.243  STREAM example.com
+172.66.147.243  DGRAM  
+172.66.147.243  RAW    
+104.20.23.154   STREAM 
+104.20.23.154   DGRAM  
+104.20.23.154   RAW    
+HTTP/2 200 
+date: Tue, 27 Oct 2026 05:01:53 GMT
+content-type: text/html; charset=utf-8
+server: cloudflare
+last-modified: Sat, 24 Oct 2026 11:34:40 GMT
+allow: GET, HEAD
+accept-ranges: bytes
+age: 12039
+cf-cache-status: HIT
+cf-ray: a50f253a3f5419ca-MSP
+alt-svc: h3=":443"; ma=86400
+

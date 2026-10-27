@@ -1,0 +1,13 @@
+name="kali-linux-2026.3-virtualbox-amd64"
+memory=2048
+cpus=2
+VMState="running"
+nat-network1="NatNetwork"
+cableconnected1="on"
+nic1="natnetwork"
+clipboard="bidirectional"
+draganddrop="bidirectional"
+SharedFolderNameMachineMapping1="Downloads"
+SharedFolderPathMachineMapping1="C:\\Users\\RaoTheOG\\Downloads"
+SnapshotName="Kali - Network Working"
+CurrentSnapshotName="Kali - Network Working"
